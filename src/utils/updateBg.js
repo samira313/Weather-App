@@ -43,20 +43,20 @@ export const updateBackground = (weatherCondition, temp) => {
 const backgroundImage = backgroundImages[weatherCondition] || "default.gif"; 
 const boxImage = boxImages[weatherCondition] || "defaultBox.gif";
 
-document.body.style.backgroundImage = `url('/public/img/${backgroundImage}')`;
+document.body.style.backgroundImage = `url('https://samira313.github.io/Weather-App/public/img/${backgroundImage}')`;
 document.body.style.backgroundSize = "cover";
 
 const weatherGif = document.getElementById("weather-gif"); 
   if (weatherGif) {
-      weatherGif.style.backgroundImage = `url('/public/img/${boxImage}')`;
+      weatherGif.style.backgroundImage = `url('https://samira313.github.io/Weather-App/public/img/${boxImage}')`;
       weatherGif.style.backgroundSize = "cover";
   }
 
   if (temp > 18 && (weatherCondition === "Clear" || weatherCondition === "Clouds")){
     
-    document.body.style.backgroundImage = `url('/public/img/sunny.gif')`;
+    document.body.style.backgroundImage = `url('https://samira313.github.io/Weather-App/public/img/sunny.gif')`;
     document.body.style.backgroundSize = "cover";
-    weatherGif.style.backgroundImage = `url('/public/img/summerGif.gif')`;
+    weatherGif.style.backgroundImage = `url('https://samira313.github.io/Weather-App/public/img/summerGif.gif')`;
     modalText.textContent = "😍Enjoy the weather!😍";
  } 
 };
