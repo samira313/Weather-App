@@ -22,6 +22,9 @@ The app also features dynamic backgrounds that change based on the weather, maki
  4. Click the location icon to fetch the weather for your current location.
  5. The sidebar shows search history for quick access to previous searches.
 
+## Demo 🖼️
+[You can check out the live demo here:](https://samira313.github.io/Weather-App/)
+
 ## Technologies Used 💻
 -  HTML5
 -  CSS3 (Responsive Design)
