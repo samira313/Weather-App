@@ -2,7 +2,7 @@
 # Weather App 🌤️
 ---
 ## Description
----
+
 An interactive weather application that allows users to check the current weather and a 5-day forecast for any city worldwide.This app provides real-time weather updates, displays temperature, humidity, wind speed, and weather conditions dynamically. Users can enter a city’s name or use their current location to get weather data instantly.
 The app also features dynamic backgrounds that change based on the weather, making the experience visually engaging. Additionally, it keeps a search history of previously searched cities for quick access. The design is fully responsive, ensuring a smooth experience on both mobile and desktop devices.
 ------------
