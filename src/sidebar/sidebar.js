@@ -55,17 +55,23 @@ let condition =(weatherData.weather && weatherData.weather.length > 0)
      
  if (temp < 10 && condition === "Clear" || condition === "Clouds") { 
     weatherAdvice.textContent = "Advice:Wear a jacket!🧣🧤"; 
-}else if (condition === "Rain") 
+}else if (condition === "Rain" || condition === "Drizzle")
     { weatherAdvice.textContent = "Advice:Take an umbrella!🌂☔"; 
 
 }else if (condition === "Snow") 
         { weatherAdvice.textContent = "Advice:Watch your step, it's slippery!☃️❄️";
         }
-else if (condition === "Dust") {
+else if (condition === "Dust" || condition === "Ash" || condition === "Smoke" || condition === "Sand") {
     weatherAdvice.textContent = "Advice:Avoid crowded places!😷";
+}
+
+else if (condition === "Haze" || condition === "Fog") {
+    weatherAdvice.textContent = "Advice: Dress appropriately!";
 }
 else if (condition === "Thunderstorm") {
     weatherAdvice.textContent = "Advice: Stay calm and take a deep breath!⛈️";
+}else if( condition === "Wind" || condition === "Windy" || condition === "Squall" || condition === "Tornado") {
+    weatherAdvice.textContent = "Advice:Hold your hat! 🫣 ";
 }
     
 else { weatherAdvice.textContent = "Advice:Enjoy the weather!😍";
